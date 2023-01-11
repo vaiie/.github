@@ -1,0 +1,15 @@
+# Workflow name
+name: "Shared linting workflow"
+# Event for the workflow
+on: [pull_request]
+# List of jobs
+jobs:
+  carry-out-linting:
+    # Operating System
+    runs-on: ubuntu-latest
+    # Job steps
+    steps:
+      - uses: actions/checkout@v3
+      - name: Lint code
+        # 👇 Install dependencies with the same package manager used in the project (replace it as needed) e.g. yarn, npm, pnpm
+        run: npm run lint
