@@ -1,6 +1,6 @@
 # Pull Request
 
-Jira Issue Key: [<JIRA ISSUE KEY>](https://jerseypost.atlassian.net/browse/<JIRA ISSUE KEY>)
+Jira Issue Key: [<JIRA ISSUE KEY>](https://vaiie.atlassian.net/browse/<JIRA ISSUE KEY>)
 
 ## Motivation & Context
   
